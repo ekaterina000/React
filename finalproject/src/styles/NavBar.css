@@ -1,0 +1,25 @@
+.navbar.custom-navbar {
+  background-color: #6a0dad; 
+  padding-left:  60px; 
+  padding-right:  60px; 
+
+}
+
+.navbar-brand, .navbar-nav .nav-link, .custom-form .btn-outline-light {
+  color: #d49dee !important;
+}
+
+.custom-form .form-control {
+  background-color: rgba(255, 255, 255, 0.6); 
+}
+
+.navbar .form-control:focus {
+  box-shadow: none;
+  border-color: #d49dee;
+}
+
+.custom-form {
+  display: flex;
+  align-items: center;
+  margin-left: auto; 
+}
